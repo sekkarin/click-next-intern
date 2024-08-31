@@ -1,0 +1,123 @@
+[
+  {
+    "timestamp": "31/Aug/2024:05:58:20 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/",
+    "http_version": "HTTP/1.1",
+    "return_code": 200,
+    "body_byte": 26,
+    "http_referer": "-",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:25 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wordpress/",
+    "http_version": "HTTP/1.1",
+    "return_code": 302,
+    "body_byte": 5,
+    "http_referer": "-",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:28 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-admin/install.php",
+    "http_version": "HTTP/1.1",
+    "return_code": 200,
+    "body_byte": 13347,
+    "http_referer": "-",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:28 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-includes/css/dashicons.min.css?ver=6.6.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:28 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-admin/css/forms.min.css?ver=6.6.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:28 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-includes/css/buttons.min.css?ver=6.6.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:28 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-admin/js/language-chooser.min.js?ver=6.6.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:29 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-admin/css/l10n.min.css?ver=6.6.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:29 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-admin/css/install.min.css?ver=6.6.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:29 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  },
+  {
+    "timestamp": "31/Aug/2024:05:58:29 +0000",
+    "ip": "172.29.0.1",
+    "method": "GET",
+    "path": "/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "http_version": "HTTP/1.1",
+    "return_code": 404,
+    "body_byte": 555,
+    "http_referer": "http://localhost/wp-admin/install.php",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+  }
+]
