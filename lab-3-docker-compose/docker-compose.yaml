@@ -11,6 +11,8 @@ services:
     depends_on:
       - web1
       - web2
+    networks:
+      - nginx_reverse_proxy_network
 
 
   web1:
@@ -22,6 +24,8 @@ services:
       - wordpress:/var/www/html
     depends_on:
       - wordpress
+    networks:
+      - nginx_reverse_proxy_network
 
   web2:
     image: nginx:1.27.1-alpine
@@ -32,6 +36,8 @@ services:
       - wordpress:/var/www/html
     depends_on:
       - wordpress
+    networks:
+      - nginx_reverse_proxy_network
   wordpress:
     image: wordpress:php8.3-fpm-alpine
     restart: always
@@ -45,6 +51,9 @@ services:
       - wordpress:/var/www/html
     expose:
       - "9000"  # Expose PHP-FPM port for Nginx
+    networks:
+      - wordpress_network
+      - nginx_reverse_proxy_network
 
   db:
     image: mysql:8.0
@@ -58,10 +67,11 @@ services:
       - db:/var/lib/mysql
     ports:
       - "3306:3306"
+    networks:
+      - wordpress_network
 volumes:
   wordpress:
   db:
-
-
-  
-
+networks:
+  nginx_reverse_proxy_network:
+  wordpress_network:
